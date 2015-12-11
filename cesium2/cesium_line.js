@@ -9,3 +9,5 @@ line1.add({
          width : 10,
          material : new Cesium.PolylineArrowMaterialProperty(Cesium.Color.BLUE)
      }});
+
+viewer.zoomTo(viewer.entities);
