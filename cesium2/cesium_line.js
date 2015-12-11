@@ -3,11 +3,9 @@ var line1 = viewer.entities;
 line1.add({
      polyline : {
          positions : Cesium.Cartesian3.fromDegreesArrayHeights([
--75 , 35 , 200000 ,
- 123 , 45 , 3000000 ,
- 135 , 40 , 0 ,
- 20 , 80 , 40000000 
+ 139.632509 , 35.68453 , 200000 ,
+-122.555284 , 38.058506 , 200000 
 ]),
-         width : 5,
+         width : 10,
          material : new Cesium.PolylineArrowMaterialProperty(Cesium.Color.BLUE)
      }});
