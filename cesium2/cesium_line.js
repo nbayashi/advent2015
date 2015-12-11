@@ -9,5 +9,5 @@ line1.add({
  20 , 80 , 40000000 
 ]),
          width : 5,
-         material : new Cesium.PolylineArrowMaterialProperty(Cesium.Color.#00ff7f)
+         material : new Cesium.PolylineArrowMaterialProperty(Cesium.Color.RED)
      }});
